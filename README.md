@@ -10,7 +10,7 @@ In further research usage of this script please use this citation:
 
 @inproceedings{lachraf:hal-02150003,
   TITLE = {{ArbEngVec : Arabic-English Cross-Lingual Word Embedding Model}},
-  AUTHOR = {Lachraf, Raki and Nagoudi, El Moatez Billah  and Ayachi, Youcef  and Abdelali, Ahmed and Schwab, Didier},
+  AUTHOR = {Lachraf, Raki; Nagoudi, El Moatez Billah; Ayachi, Youcef; Abdelali, Ahmed; Schwab, Didier},
   URL = {https://hal.archives-ouvertes.fr/hal-02150003},
   BOOKTITLE = {{The Fourth Arabic Natural Language Processing Workshop}},
   ADDRESS = {Florence, Italy},
