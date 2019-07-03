@@ -12,7 +12,7 @@ In further research usage of this script please use this citation:
   TITLE = {{ArbEngVec : Arabic-English Cross-Lingual Word Embedding Model}},
   AUTHOR = {Lachraf, Raki; Nagoudi, El Moatez Billah; Ayachi, Youcef; Abdelali, Ahmed; Schwab, Didier},
   URL = {https://hal.archives-ouvertes.fr/hal-02150003},
-  BOOKTITLE = {{The Fourth Arabic Natural Language Processing Workshop}},
+  BOOKTITLE = {{The Fourth Arabic Natural Language Processing Workshop, co-located with ACL}},
   ADDRESS = {Florence, Italy},
   YEAR = {2019},
   MONTH = Jul,
