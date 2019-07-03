@@ -2,7 +2,7 @@ These scripts were used for training ArbEngVec variants. The used Arabic preproc
 
 To change alignment method before training, it is required to change the alignment function used while appending sentences to the trained documents list. 
 
-for further reading see full paper: https://hal.archives-ouvertes.fr/hal-02150003/file/Lachraf-el-al-WANLP.pdf
+For further reading see full paper: https://hal.archives-ouvertes.fr/hal-02150003/file/Lachraf-el-al-WANLP.pdf
 
 
 In further research usage of this script please use this citation:
