@@ -1,24 +1,23 @@
-ArbEngVec is an open source ArbEngVec which provides several Arabic-English cross-lingual word embedding models. To train our bilingual models, we use a large dataset with more than 93 million pairs of Arabic-English parallel sentences mainly extracted  from the Open Parallel Corpus Project (OPUS) (Tiedemann, 2012).
+Word Embeddings (WE) are getting increasingly popular and widely applied in many Natural Language Processing (NLP) applications due to their effectiveness in capturing semantic properties of words; Machine Translation (MT), Information Retrieval (IR) and Information Extraction (IE) are among such areas. In this paper, we propose an open source ArbEngVec which provides several Arabic-English cross-lingual word embedding models. To train our bilingual models, we use a large dataset with more than 93 million pairs of Arabic-English parallel sentences. In addition, we perform both extrinsic and intrinsic evaluations for the different word embedding model variants. The extrinsic evaluation assesses the performance of models on the cross-language Semantic Textual Similarity (STS), while the intrinsic evaluation is based on the Word Translation (WT) task.
 
-These scripts were used for training ArbEngVec variants. The used Arabic preprocessing is also provided alongside the different alignment methods. The used Arabic preprocessing is also provided alongside the different alignment methods. 
-
-To change alignment method before training, it is required to change the alignment function used while appending sentences to the trained documents list.
-
-For further reading see full paper: https://hal.archives-ouvertes.fr/hal-02150003/file/Lachraf-el-al-WANLP.pdf
 
 
 In further research usage of this script please use this citation:
 
 
-@inproceedings{lachraf:hal-02150003,
-  TITLE = {{ArbEngVec : Arabic-English Cross-Lingual Word Embedding Model}},
-  AUTHOR = {Lachraf, Raki; Nagoudi, El Moatez Billah; Ayachi, Youcef; Abdelali, Ahmed; Schwab, Didier},
-  URL = {https://hal.archives-ouvertes.fr/hal-02150003},
-  BOOKTITLE = {{The Fourth Arabic Natural Language Processing Workshop, co-located with ACL}},
-  ADDRESS = {Florence, Italy},
-  YEAR = {2019},
-  MONTH = Jul,
-  PDF = {https://hal.archives-ouvertes.fr/hal-02150003/file/Lachraf-el-al-WANLP.pdf},
-  HAL_ID = {hal-02150003},
-  HAL_VERSION = {v1},
+@inproceedings{lachraf-etal-2019-arbengvec,
+    title = "{A}rb{E}ng{V}ec : {A}rabic-{E}nglish Cross-Lingual Word Embedding Model",
+    author = "Lachraf, Raki  and
+      Nagoudi, El Moatez Billah  and
+      Ayachi, Youcef  and
+      Abdelali, Ahmed  and
+      Schwab, Didier",
+    booktitle = "Proceedings of the Fourth Arabic Natural Language Processing Workshop",
+    month = aug,
+    year = "2019",
+    address = "Florence, Italy",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/W19-4605",
+    doi = "10.18653/v1/W19-4605",
+    pages = "40--48",
 }
